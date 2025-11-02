@@ -72,4 +72,4 @@ cd ..
 echo "🚀 Generando AppImage..."
 appimagetool "$APPDIR" || ./linuxdeploy-x86_64.AppImage --appdir "$APPDIR" --output appimage
 
-echo "✅ ¡AppImage compatible con Pentium creado!"
+echo "✅ ¡AppImage compatible con multiples CPUs creado!"
